@@ -1,0 +1,288 @@
+body {
+    /* margin: 0; */
+    /* padding: 12px 30px; */
+    padding: 35px 75px;
+    font-family: 'Karla';
+    color: #546a p;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+}
+
+
+html a:link,
+body a:link {
+    text-decoration: none;
+}
+
+html a:visited,
+body a:visited {
+    text-decoration: none;
+}
+
+html a:hover,
+body a:hover {
+    text-decoration: underline;
+}
+
+html a:active,
+body a:active {
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header' 'content' '. footer';
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    width: 90vw;
+    height: 90vh;
+}
+
+.grid-container .accent-crimson-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #6e2c5a, #dc141b);
+    font-weight: bold;
+    color: white;
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.grid-container .accent-crimson-gradient:hover {
+    box-shadow: 0 20px 30px rgba(101, 48, 85, 0.3);
+    transform: scale(1.05);
+}
+
+.grid-container .accent-orange-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #f78b559c, #f71d78);
+    font-weight: bold;
+    color: white;
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+    border-radius: 10px;
+}
+
+.grid-container .accent-orange-gradient:hover {
+    box-shadow: 0 20px 30px 0 rgba(255, 0, 102, 0.6);
+    /* transform: scale(1.05); */
+}
+
+.grid-container .accent-green-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #80cd32, #32cd4c);
+    font-weight: bold;
+    color: white;
+    transition: 0.5s ease box-shadow, 0.5s ease transform;
+    border-radius: 10px;
+}
+
+.grid-container .accent-green-gradient:hover {
+    box-shadow: 0 20px 30px 0 rgba(128, 205, 50, 0.3);
+    transform: scale(1.05);
+}
+
+.grid-container .accent-brown-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #8b3113, #8b8113);
+    font-weight: bold;
+    color: white;
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.grid-container .accent-brown-gradient:hover {
+    box-shadow: 0 20px 30px 0 rgba(139, 49, 19, 0.3);
+    transform: scale(1.05);
+}
+.grid-container .accent-blue-gradient {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.grid-container .accent-blue-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1.5s all;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #41e1a4, #41bce1 );
+    background-size: 400% 400%;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+    border-radius: 10px;
+}
+
+.grid-container .accent-blue-gradient:hover {
+    background-position: 100% 100%;
+    box-shadow: 0 20px 30px 0 rgba(65, 132, 225, 0.3);
+    transform: scale(1.05);
+    background-position: right center;
+    color: #fff;
+}
+
+.grid-container .accent-purple-gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #7100d3, #d300a9);
+    font-weight: bold;
+    color: white;
+    transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.grid-container .accent-purple-gradient:hover {
+    box-shadow: 0 20px 30px 0 rgba(113, 0, 211, 0.3);
+    transform: scale(1.05);
+}
+
+.grid-container .header {
+    grid-area: header;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.grid-container .header>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 1px 1px 1px 1px #eceff1;
+}
+
+.grid-container .gap {
+    grid-area: gap;
+    box-shadow: inset 0 1px 0 0 #eceff1;
+}
+
+.grid-container .content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container .content>div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 1px 0 0 #eceff1, inset 0 1px 0 0 #eceff1;
+}
+
+.grid-container .footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.grid-container .footer>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 1px 1px 1px 1px #eceff1;
+}
+
+.header-primary {
+    grid-area: header;
+    display: grid;
+    height: 30vh;
+    grid-template-rows: repeat(1, 1fr);
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.header-primary:hover{
+    box-shadow: 0 20px 30px 0 #eaebc8c7;
+    background-position: right center;
+}
+
+.content-1 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: inline-block;
+    
+    height: 30vh;
+    margin: 20px 60px;
+    width: 40%;
+} 
+.content-1:hover {
+   
+    background-position: right;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(43deg, #417fd0 14%, #5070c8 53%, #542ac7 95%);
+    grid-area: footer;
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    
+}
+.footer:hover {
+    box-shadow: 0 20px 30px 0 #7591db;
+    background-position: right center;
+}
+.code {
+    color: #542ac7;
+}
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .content-1 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  
+
+
+
+

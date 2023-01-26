@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Karla'>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel = "shortcut icon" type = "image/png" href="assets/icon.png">
+    <title>Time Table</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div>   
+            <div class="header-primary">
+                <div class="accent-orange-gradient">
+                    <p>
+                        <h3>TimeTable For LPU</h3>
+                    </p>
+                </u>
+                </div>
+            </div>
+            <div class="parent">
+            <div class="content-1">
+                <a class="accent-blue-gradient" href="">
+                    <p> Sem-1 </p>
+                </a>
+            </div>
+            <div class="content-1">
+                <a class="accent-blue-gradient" href="sem-2.html">
+                    <p> Sem-2 </p>
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyCz3_Zg2QwtlkbMz43iGfCezOABNAv5Q_c",
+          authDomain: "time-table-29127.firebaseapp.com",
+          projectId: "time-table-29127",
+          storageBucket: "time-table-29127.appspot.com",
+          messagingSenderId: "566654692703",
+          appId: "1:566654692703:web:514adb6d63f59026ebdaea",
+          measurementId: "G-E1N433WJ6X"
+        };
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
