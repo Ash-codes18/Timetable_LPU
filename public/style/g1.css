@@ -4,7 +4,9 @@ body {
     padding: 35px 75px;
     font-family: 'Karla';
     color: #000000;
-    background-image: url("");
+    background-image: url("https://c0.wallpaperflare.com/preview/65/993/280/background-blur-blurred-bright.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   html a:link,
@@ -205,7 +207,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 10px 0;
-    background: linear-gradient(135deg, rgba(90, 228, 255, 0.329), rgba(63, 227, 188, 0.247));
+    background: linear-gradient(135deg, rgba(90, 255, 252, 0.164), rgba(227, 63, 200, 0.247));
     font-weight: bold;
     font-size: x-large;
     color: rgb(0, 0, 0);
