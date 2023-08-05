@@ -33,12 +33,13 @@ WE can access the timetables directly on the website [lpu.web.app](https://lpu.w
 Here are some screenshots of the [lpu.web.app](https://lpu.web.app) website:
 
 ![Homepage](1.png)
+![Homepage](2.png)
 *Homepage - Easily choose the year you want to view.*
 
-![Semester](2.png)
+![Semester](3.png)
 *Semester - Easily choose the semester you want to view.*
 
-![Group](3.png)
+![Group](4.png)
 *Group - Easily choose the Group you want to view.*
 
 ![Timetable](tt.png)
