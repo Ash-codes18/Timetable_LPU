@@ -1,6 +1,6 @@
 # Timetable for LPU (<i>My sections only</i>)
 
-![Timetable Repository Logo](timetable.jpg)
+![Timetable Repository Logo](tımetable.jpg)
 
 
 This repository contains the timetables for all the semesters I have cleared or am currently in. You can conveniently access these timetables directly on the website [lpu.web.app](https://lpu.web.app). This repository is aimed at helping me stay organized and manage my academic schedules effectively.
