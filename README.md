@@ -36,7 +36,7 @@ Here are some screenshots of the [lpu.web.app](https://lpu.web.app) website:
 *Homepage - Easily choose the semester you want to view.*
 
 ![Timetable](/images/timetable.png)
-*Timetable - Clear visualization of your class schedule for the selected semester.*
+*Timetable - Clear visualization of the class schedule for the selected semester.*
 
 ## Contributing
 
@@ -64,4 +64,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ---
 
-If you have any questions or need assistance, feel free to contact the repository me.
+If you have any questions or need assistance, feel free to contact me.

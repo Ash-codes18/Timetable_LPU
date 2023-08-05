@@ -1,0 +1,329 @@
+
+body {
+  margin: 0;
+  padding: 35px 75px;
+  font-family: 'Karla';
+  color: #000000;
+  background-image: url("https://c0.wallpaperflare.com/preview/65/993/280/background-blur-blurred-bright.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html a:link,
+body a:link {
+  text-decoration: none;
+}
+
+html a:visited,
+body a:visited {
+  text-decoration: none;
+}
+
+html a:hover,
+body a:hover {
+  text-decoration: underline;
+}
+
+html a:active,
+body a:active {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.timetable {
+  display: grid;
+  grid-template-areas: 'header header' 'gap week' 'time content' 'footer footer';
+  grid-template-columns: 120px;
+  grid-template-rows: 60px;
+  width: 90vw;
+  height: 90vh;
+}
+
+.timetable .accent-crimson-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #dc14a0, #dc141b);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-crimson-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(220, 20, 160, 0.3);
+  transform: scale(1.05);
+}
+
+.timetable .accent-orange-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #ffa600, #f9412c );
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-orange-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(255, 88, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.timetable .accent-green-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #80cd32, #32cd4c);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-green-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(128, 205, 50, 0.3);
+  transform: scale(1.05);
+}
+
+.timetable .accent-brown-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #8b3113, #8b8113);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-brown-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(139, 49, 19, 0.3);
+  transform: scale(1.05);
+}
+
+.timetable .accent-blue-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #4184e1, #6941e1);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-blue-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(65, 132, 225, 0.3);
+  transform: scale(1.05);
+}
+.timetable .night{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #00d38d, #19bdef);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .night:hover{
+  box-shadow: 0 20px 30px 0 rgba(65, 225, 212, 0.3);
+  transform: scale(1.05);
+}
+.timetable .maths{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #ff693b, #ed3261);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .maths:hover{
+  box-shadow: 0 20px 30px 0 rgba(232, 92, 33, 0.3);
+  transform: scale(1.05);
+}
+
+.timetable .lab{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: #c31432;  
+background: -webkit-linear-gradient(to right, #240b36, #c31432);
+background: linear-gradient(to right, #240b36, #c31432);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .lab:hover{
+  box-shadow: 0 20px 30px 0 rgba(124, 30, 50, 0.3);
+  transform: scale(1.05);
+}
+.timetable .accent-purple-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, #7100d3, #d300a9);
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-purple-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(113, 0, 211, 0.3);
+  transform: scale(1.05);
+}
+
+.timetable .accent-grey-gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, rgba(90, 255, 252, 0.164), rgba(227, 63, 200, 0.247));
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-grey-gradient:hover {
+  box-shadow: 0 10px 10px 0 rgba(128, 128, 128, 0.3);
+  /* transform: scale(1.05); */
+}
+
+.timetable .accent-grey-gradient-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0.463), rgba(255, 0, 157, 0.495));
+  font-weight: bold;
+  color: white;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+
+.timetable .accent-grey-gradient-bottom:hover {
+  box-shadow: 0 20px 30px 0 rgba(128, 128, 128, 0.3);
+  transform: scale(1.05);
+}
+.timetable .gap {
+  grid-area: gap;
+  box-shadow: inset 0 1px 0 0 #eceff1;
+}
+
+.timetable .header {
+  grid-area: header;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.timetable .header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 1px 1px 1px 1px #eceff1;
+}
+
+.timetable .week-names {
+  grid-area: week;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.timetable .week-names > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 1px 1px 0 0 #eceff1;
+}
+
+.timetable .time-interval {
+  grid-area: time;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  font-size: 12px;
+}
+
+.timetable .time-interval > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 1px 0 0 #eceff1;
+}
+
+.timetable .content {
+  grid-area: content;
+  /* align-items: center;
+  justify-content: center; */
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.timetable .content > div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 1px 0 0 #eceff1, inset 0 1px 0 0 #eceff1;
+}
+
+.timetable .footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.timetable .footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 1px 1px 1px 1px #eceff1;
+}
