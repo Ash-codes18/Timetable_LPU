@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Karla'>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/footer.css">
-    <link rel = "shortcut icon" type = "image/png" href="assets/icon.png">
-    <title>Time Table</title>
-</head>
-<body>
-    <div class="grid-container">
-        <div>   
-            <div class="header-primary">
-                <div class="accent-orange-gradient">
-                    <p>
-                        <h3>TimeTable For LPU</h3>
-                    </p>
-                </u>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>LPU Timetable</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/icon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Time Table</h1>
+                <h3 class="mb-5"><em>For LPU</em><h3><em>~Ashmit Mehta</em></h3></h3><br>
+                <a class="btn btn-primary btn-xl" href="#portfolio">Here's the stuff!</a>
+            </div>
+        </header>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Organized</h3>
+                    <h2 class="mb-5">Year Wise!</h2>
+                </div>
+                <div class="row gx-0" id="halua">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="1st year/1st_year.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1">1st Year</div>
+                                    <p class="mb-0">Laying the keystones of code and curiosity.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="2nd Year/2nd_year.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1">2nd Year</div>
+                                    <p class="mb-0">From algorithms to camaraderie, diving deeper into the digital realm.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="3rd Year/3rd_year.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1">3rd Year</div>
+                                    <p class="mb-0">Unleashing innovation, bridging theory and tech reality.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="4th Year/4th_year.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1">4th Year</div>
+                                    <p class="mb-0">Crafting tomorrow's tech today, gearing up to graduate with bytes of brilliance.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="parent">
-            <div class="content-1">
-                <a class="accent-blue-gradient" href="1st year/1st_year.html">
-                    <p> 1st Year </p>
-                </a>
-            </div>
-            <div class="content-1">
-                <a class="accent-blue-gradient" href="2nd Year/2nd_year.html">
-                    <p> 2nd Year </p>
-                </a>
-            </div>
-            <div class="content-1">
-                <a class="accent-blue-gradient" href="3rd Year/3rd_year.html">
-                    <p> 3rd Year </p>
-                </a>
-            </div>
-            <div class="content-1">
-                <a class="accent-blue-gradient" href="4th Year/4th_year.html">
-                    <p> 4th Year </p>
-                </a>
-            </div>
-        </div>
-        </div>
-        <span>
-            Made with <i class="fa fa-heart pulse"></i> by <a href=https://github.com/Ash-codes18 target="_blank">Ashmit Mehta</a>
-        </span>
-    </div>
-   
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
-        const firebaseConfig = {
-          apiKey: "AIzaSyCz3_Zg2QwtlkbMz43iGfCezOABNAv5Q_c",
-          authDomain: "time-table-29127.firebaseapp.com",
-          projectId: "time-table-29127",
-          storageBucket: "time-table-29127.appspot.com",
-          messagingSenderId: "566654692703",
-          appId: "1:566654692703:web:514adb6d63f59026ebdaea",
-          measurementId: "G-E1N433WJ6X"
-        };
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
-</body>
+        </section>
+    </body>
 </html>

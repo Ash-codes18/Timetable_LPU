@@ -46,7 +46,7 @@ Here are some screenshots of the [lpu.web.app](https://lpu.web.app) website:
 
 ## Contributing
 
-This repository is currently maintained by its creator. However, if you would like to contribute to improve the user experience, add features, or fix issues, you are welcome to do so. Here's how you can contribute:
+This repository is currently maintained by me. However, if you would like to contribute to improve the user experience, add features, or fix issues, you are welcome to do so. Here's how you can contribute:
 
 1. Fork the repository to your own GitHub account.
 
@@ -66,7 +66,7 @@ Your feedback is highly valuable for improving this repository and the associate
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of this license.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute t    he code as per the terms of this license.
 
 ---
 
